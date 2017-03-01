@@ -5,11 +5,11 @@ body, html{
 
 
 .tophead{
-    font-family: 'Dancing Script', cursive;
-    font-size: 36px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
   background: #DFB6A3;
-    padding-top: 18px;
-    margin: 5px;
+  padding-top: 18px;
+  margin: 5px;
 }
 
 .headline{
@@ -71,36 +71,36 @@ a:active {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DFB6A3;
 }
 
 li {
-    float: left;
-    border-right:1px solid #bbb;
+  float: left;
+  border-right:1px solid #bbb;
 }
 
 li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #6AB6CE;
 }
 
 .home {
-    background-color: #DFB6A3;
+  background-color: #DFB6A3;
 }
 
 
@@ -116,17 +116,15 @@ img{
 
 @media only screen and (max-width: 480px) {
   .content {
-  width: 90%;
-  margin: 0px;
+    width: 90%;
+    margin: 0px;
   }
   .limg{
-  width: 70%;
-  height: auto;
+    width: 70%;
+    height: auto;
   }
   .discription{
-  width: 85%;
-  height: auto;
+    width: 85%;
+    height: auto;
   }
 }
-
-
