@@ -327,26 +327,31 @@ ul#nav li.current a { color: #F06000; }
 
 .Java {
   	width: 65%;
+	background-color:green;
   	-moz-animation: Java 2s ease;
   	-webkit-animation: Java 2s ease;
 }
 .C {
   	width: 60%;
+	background-color:green;
   	-moz-animation: C 2s ease;
   	-webkit-animation: C 2s ease;
 }
 .JavaScript {
-  	width: 30%;
+  	width: 25%;
+	background-color:orange;
   	-moz-animation: JavaScript 2s ease;
   	-webkit-animation: JavaScript 2s ease;
 }
 .css {
   	width: 35%;
+	background-color:yellow;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .Assembly {
   	width: 15%;
+	background-color:red;
   	-moz-animation: Assembly 2s ease;
   	-webkit-animation: Assembly 2s ease;
 }
@@ -366,7 +371,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes JavaScript {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 25%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -391,7 +396,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes JavaScript {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 25%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -405,6 +410,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
