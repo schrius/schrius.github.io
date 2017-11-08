@@ -333,13 +333,13 @@ ul#nav li.current a { color: #F06000; }
 }
 .JavaScript {
   	width: 70%;
-	background-color:orange;
+	background-color:green;
   	-moz-animation: JavaScript 2s ease;
   	-webkit-animation: JavaScript 2s ease;
 }
 .css {
   	width: 80%;
-	background-color:yellow;
+	background-color:green;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
@@ -357,6 +357,7 @@ ul#nav li.current a { color: #F06000; }
 
 .React {
   	width: 50%;
+	background-color:yellow;
   	-moz-animation: React 2s ease;
   	-webkit-animation: React 2s ease;
 }
