@@ -320,31 +320,31 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .Java {
-  	width: 65%;
+  	width: 85%;
 	background-color:green;
   	-moz-animation: Java 2s ease;
   	-webkit-animation: Java 2s ease;
 }
 .C {
-  	width: 60%;
+  	width: 75%;
 	background-color:green;
   	-moz-animation: C 2s ease;
   	-webkit-animation: C 2s ease;
 }
 .JavaScript {
-  	width: 25%;
+  	width: 70%;
 	background-color:orange;
   	-moz-animation: JavaScript 2s ease;
   	-webkit-animation: JavaScript 2s ease;
 }
 .css {
-  	width: 35%;
+  	width: 80%;
 	background-color:yellow;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .Assembly {
-  	width: 15%;
+  	width: 20%;
 	background-color:red;
   	-moz-animation: Assembly 2s ease;
   	-webkit-animation: Assembly 2s ease;
@@ -356,26 +356,26 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .React {
-  	width: 35%;
+  	width: 50%;
   	-moz-animation: React 2s ease;
   	-webkit-animation: React 2s ease;
 }
 
 @-moz-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes C {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes JavaScript {
   0%   { width: 0px;  }
-  100% { width: 25%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 35%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes Assembly {
   0%   { width: 0px;  }
@@ -387,28 +387,28 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes React {
   0%   { width: 0px;  }
-  100% { width: 35%;  }
+  100% { width: 50%;  }
 }
 
 @-webkit-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes C {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes JavaScript {
   0%   { width: 0px;  }
-  100% { width: 25%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 35%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes Assembly {
   0%   { width: 0px;  }
-  100% { width: 15%;  }
+  100% { width: 20%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
@@ -416,7 +416,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes React {
   0%   { width: 0px;  }
-  100% { width: 35%;  }
+  100% { width: 50%;  }
 }
 
 
