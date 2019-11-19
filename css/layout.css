@@ -328,8 +328,8 @@ ul#nav li.current a { color: #F06000; }
 .AWS {
   	width: 70%;
 	background-color:green;
-  	-moz-animation: C 2s ease;
-  	-webkit-animation: C 2s ease;
+  	-moz-animation: AWS 2s ease;
+  	-webkit-animation: AWS 2s ease;
 }
 .JavaScript {
   	width: 70%;
