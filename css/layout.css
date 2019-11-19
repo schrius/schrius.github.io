@@ -46,7 +46,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -320,13 +320,13 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .Java {
-  	width: 85%;
+  	width: 75%;
 	background-color:green;
   	-moz-animation: Java 2s ease;
   	-webkit-animation: Java 2s ease;
 }
-.C {
-  	width: 75%;
+.AWS {
+  	width: 70%;
 	background-color:green;
   	-moz-animation: C 2s ease;
   	-webkit-animation: C 2s ease;
@@ -343,11 +343,11 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.Assembly {
-  	width: 20%;
-	background-color:red;
-  	-moz-animation: Assembly 2s ease;
-  	-webkit-animation: Assembly 2s ease;
+.Node {
+  	width: 70%;
+	background-color:green;
+  	-moz-animation: Node 2s ease;
+  	-webkit-animation: Node 2s ease;
 }
 .jquery {
   	width: 50%;
@@ -356,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .React {
-  	width: 50%;
+  	width: 65%;
 	background-color:yellow;
   	-moz-animation: React 2s ease;
   	-webkit-animation: React 2s ease;
@@ -364,9 +364,9 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 75%;  }
 }
-@-moz-keyframes C {
+@-moz-keyframes AWS {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
@@ -378,9 +378,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes Assembly {
+@-moz-keyframes Node {
   0%   { width: 0px;  }
-  100% { width: 15%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
@@ -388,16 +388,16 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes React {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
 }
 
 @-webkit-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
-}
-@-webkit-keyframes C {
-  0%   { width: 0px;  }
   100% { width: 75%;  }
+}
+@-webkit-keyframes AWS {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes JavaScript {
   0%   { width: 0px;  }
@@ -407,9 +407,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes Assembly {
+@-webkit-keyframes Node {
   0%   { width: 0px;  }
-  100% { width: 20%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
@@ -417,7 +417,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes React {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
 }
 
 
