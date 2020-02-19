@@ -355,6 +355,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
+.Go {
+  	width: 50%;
+  	-moz-animation: Go 2s ease;
+  	-webkit-animation: Go 2s ease;
+}
+
 .React {
   	width: 65%;
 	background-color:yellow;
@@ -386,6 +392,11 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+
+@-moz-keyframes Go {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
 @-moz-keyframes React {
   0%   { width: 0px;  }
   100% { width: 65%;  }
@@ -414,6 +425,11 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+
+@-webkit-keyframes Go {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes React {
   0%   { width: 0px;  }
