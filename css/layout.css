@@ -356,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .Go {
-  	width: 50%;
+  	width: 80%;
   	-moz-animation: Go 2s ease;
   	-webkit-animation: Go 2s ease;
 }
