@@ -326,7 +326,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: Java 2s ease;
 }
 .AWS {
-  	width: 70%;
+  	width: 75%;
 	background-color:green;
   	-moz-animation: AWS 2s ease;
   	-webkit-animation: AWS 2s ease;
@@ -357,6 +357,7 @@ ul#nav li.current a { color: #F06000; }
 
 .Go {
   	width: 80%;
+	background-color:green;
   	-moz-animation: Go 2s ease;
   	-webkit-animation: Go 2s ease;
 }
