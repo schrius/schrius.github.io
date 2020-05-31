@@ -377,7 +377,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes AWS {
   0%   { width: 0px;  }
@@ -393,7 +393,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes Node {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
@@ -420,7 +420,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 
 @-webkit-keyframes Golang {
@@ -447,7 +447,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes Node {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
