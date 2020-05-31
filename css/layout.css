@@ -365,7 +365,7 @@ ul#nav li.current a { color: #F06000; }
    width: 75%;
    background-color:green;
    -moz-animation: Golang 2s ease;
-   -webkit-animation: Golang 2s ease;
+   -webkit-animation: Golang 2s ease
 }
 
 .React {
@@ -398,6 +398,11 @@ ul#nav li.current a { color: #F06000; }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+
+@-moz-keyframes Go {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes React {
   0%   { width: 0px;  }
@@ -447,6 +452,11 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+
+@-webkit-keyframes Go {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes React {
   0%   { width: 0px;  }
