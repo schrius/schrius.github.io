@@ -320,13 +320,13 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .Java {
-  	width: 75%;
+  	width: 70%;
 	background-color:green;
   	-moz-animation: Java 2s ease;
   	-webkit-animation: Java 2s ease;
 }
 .AWS {
-  	width: 70%;
+  	width: 85%;
 	background-color:green;
   	-moz-animation: AWS 2s ease;
   	-webkit-animation: AWS 2s ease;
@@ -355,16 +355,29 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
+.Python {
+   width: 75%;
+   background-color:green;
+   -moz-animation: Python 2s ease;
+   -webkit-animation: Python 2s ease;
+}
+.Golang {
+   width: 75%;
+   background-color:green;
+   -moz-animation: Golang 2s ease;
+   -webkit-animation: Golang 2s ease;
+}
+
 .React {
-  	width: 65%;
-	background-color:yellow;
+  	width: 75%;
+	background-color:green;
   	-moz-animation: React 2s ease;
   	-webkit-animation: React 2s ease;
 }
 
 @-moz-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes AWS {
   0%   { width: 0px;  }
@@ -388,16 +401,36 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes React {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 70%;  }
 }
+
+@-moz-keyframes Python {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
+ @-moz-keyframes Golang {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
 
 @-webkit-keyframes Java {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 70%;  }
 }
+
+@-webkit-keyframes Golang {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+
+ @-webkit-keyframes Python {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+
 @-webkit-keyframes AWS {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes JavaScript {
   0%   { width: 0px;  }
@@ -417,7 +450,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes React {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 70%;  }
 }
 
 
